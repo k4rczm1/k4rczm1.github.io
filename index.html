@@ -1,1 +1,254 @@
-<h1>moje portf.</h1>
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michał Karczmarczyk Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="cursor"></div>
+    <header>
+      <h1>Michał Karczmarczyk</h1>
+      <nav>
+        <a href="#intro">Home</a>
+        <a href="#about">About me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#cert">Certificates</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="intro">
+        <h2>Hi, I'm Michał — a Python backend developer and student.</h2>
+      </section>
+
+      <section id="about">
+        <h1>About me</h1>
+        <p>
+          I am a passionate Python developer, creating elegant and efficient
+          solutions. I enjoy transforming complex problems into simple,
+          intuitive applications that run smoothly and reliably. Outside of
+          coding, I love riding my motorcycle, exploring new routes, and finding
+          inspiration on the open road – a combination of creativity and passion
+          that drives me both in code and in life.
+        </p>
+
+        <div class="interests">
+          <div class="interest">
+            <h3>Motorcycles</h3>
+            <p>
+              I’m a motorcycle enthusiast who loves sporty bikes and the thrill
+              of the ride. Right now, I’m enjoying every twist and turn on my
+              Yamaha MT-07, always chasing the next adventure and the pure joy
+              of being on the road.
+            </p>
+            <img
+              src="D:\infa\portfolio\images\img-20250922-wa0004.jpg"
+              alt="zdjecie"
+            />
+          </div>
+
+          <div class="interest">
+            <h3>Collage</h3>
+            <p>
+              I’m a second-year student at AGH University, studying Technical
+              and IT Education. I’m passionate about learning and exploring the
+              intersection of technology and IT, constantly developing my skills
+              to create innovative and practical solutions.
+            </p>
+            <img src="D:\infa\portfolio\images\uczelnia.jpg" alt="zdjecie" />
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <p class="section-subtitle">
+          Here are some of the projects I’ve worked on, showcasing my
+          experience, problem-solving approach, and passion for building useful
+          applications.
+        </p>
+
+        <div class="projects-grid">
+          <!-- FastAPI Project -->
+          <div class="project-card">
+            <div class="project-header">
+              <h3>FastAPI Blog</h3>
+              <span class="project-badge">Backend</span>
+            </div>
+            <p class="project-tech">FastAPI · SQLAlchemy · Pydantic · Jinja2</p>
+            <p class="project-description">
+              A blog application built with FastAPI that supports creating,
+              reading, updating, and deleting posts through a REST API. It uses
+              SQLAlchemy for database management and Pydantic for data
+              validation. The project is still actively being developed.
+            </p>
+            <ul class="project-features">
+              <li>✅ CRUD operations for blog posts</li>
+              <li>✅ Data validation using Pydantic</li>
+              <li>✅ Database management with SQLAlchemy</li>
+              <li>✅ Automatic API documentation with FastAPI</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/k4rczm1/fastAPI-blog"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="devicon-github-plain"></i> Source code
+              </a>
+              <!--
+                <a href="#" target="_blank" class="project-link">
+                  <i class="devicon-fastapi-plain"></i> API Documentation
+                </a>
+              -->
+            </div>
+          </div>
+
+          <!-- PyGames Project -->
+          <div class="project-card">
+            <div class="project-header">
+              <h3>PyGames Collection</h3>
+              <span class="project-badge">Game Dev</span>
+            </div>
+            <p class="project-tech">Python · Pygame · OOP</p>
+            <p class="project-description">
+              This project is a collection of classic games including 2048,
+              Snake, and Tic-Tac-Toe. It focuses on implementing game logic,
+              user interaction, and clean code structure while recreating
+              well-known gameplay experiences.
+            </p>
+            <ul class="project-features">
+              <li>✅ Platformer game with levels and collision detection</li>
+              <li>✅ Classic Snake game with a growing snake mechanic</li>
+              <li>✅ Applied oop</li>
+              <li>✅ Main menu and level transition screens</li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/k4rczm1?tab=repositories"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="devicon-github-plain"></i> Source code
+              </a>
+              <!--
+                <a href="#" target="_blank" class="project-link">
+                  <i class="devicon-python-plain"></i> Download games
+                </a>
+              -->
+            </div>
+          </div>
+
+          <!-- Task Manager Project -->
+          <div class="project-card">
+            <div class="project-header">
+              <h3>Task Manager Web App</h3>
+              <span class="project-badge">Full Stack</span>
+            </div>
+            <p class="project-tech">
+              FastAPI · Pydantic · scikit-learn · numpy · pandas ·
+              IsolationForest · Docker · Grafana · Prometheus
+            </p>
+            <p class="project-description">
+              A web application for managing and organizing tasks with features
+              to create, update, and delete tasks through a simple interface.
+              The project is continuously being improved and expanded with new
+              features.
+            </p>
+            <ul class="project-features">
+              <li>✅ User registration and authentication with JWT</li>
+              <li>✅ Create, edit, and delete tasks (CRUD)</li>
+              <li>✅ Task categories and priority levels</li>
+              <li>✅ Task filtering and search functionality</li>
+              <li>✅ SQLite database with SQLAlchemy</li>
+              <li>
+                ✅ API built with FastAPI and data validation using Pydantic
+              </li>
+            </ul>
+            <div class="project-links">
+              <a
+                href="https://github.com/k4rczm1/Task-Manager-Web-App"
+                target="_blank"
+                class="project-link"
+              >
+                <i class="devicon-github-plain"></i> Source code
+              </a>
+              <!--
+                <a href="#" target="_blank" class="project-link">
+                  <i class="devicon-flask-original"></i> Demo live
+                </a>
+              -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h1>Skills & Expertise</h1>
+        <p>
+          A collection of technologies I'm proficient with, from languages to
+          frameworks and tools
+        </p>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Languages</h3>
+            <ul>
+              <li><i class="devicon-python-plain colored"></i> Python</li>
+              <li><i class="devicon-cplusplus-plain colored"></i> C++</li>
+              <li><i class="devicon-php-plain colored"></i> PHP</li>
+              <li><i class="devicon-mysql-plain colored"></i> SQL</li>
+              <li><i class="devicon-html5-plain colored"></i> HTML</li>
+              <li><i class="devicon-css3-plain colored"></i> CSS</li>
+              <li>
+                <i class="devicon-javascript-plain colored"></i> JavaScript
+              </li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Frameworks and Libraries</h3>
+            <ul>
+              <li><i class="devicon-fastapi-plain colored"></i> FastAPI</li>
+              <li><i class="devicon-flask-original colored"></i> Flask</li>
+              <li><i class="devicon-numpy-original colored"></i> NumPy</li>
+              <li><i class="devicon-pandas-original colored"></i> Pandas</li>
+              <li><i class="devicon-python-plain colored"></i> SQLAlchemy</li>
+              <li><i class="devicon-python-plain colored"></i> Pydantic</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Databases</h3>
+            <ul>
+              <li><i class="devicon-mysql-plain colored"></i> MySQL</li>
+              <li><i class="devicon-mongodb-plain colored"></i> MongoDB</li>
+              <li>
+                <i class="devicon-microsoftsqlserver-plain colored"></i> Access
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="cert">
+        <h2>Certificates</h2>
+        <p>
+          I hold an IT Technician certificate, which has equipped me with the
+          skills to build efficient and well-structured websites. This
+          qualification allows me to turn ideas into functional, user-friendly
+          web applications with confidence and precision.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 Michał Karczmarczyk</p>
+    </footer>
+  </body>
+</html>
