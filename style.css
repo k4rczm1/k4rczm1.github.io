@@ -633,3 +633,25 @@ img {
   filter: brightness(0.8) contrast(1.1);
   margin: 0 auto;
 }
+
+.socials {
+  margin-top: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.socials a {
+  text-decoration: none;
+  font-size: 28px;
+  color: #333;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: all 0.3s ease;
+}
+
+.socials a:hover {
+  color: #0077b5;
+  transform: scale(1.2);
+}
